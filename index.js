@@ -4,7 +4,8 @@ const prompt = require("prompt-sync")
 const numeroSecreto = Math.floor(Math.random() *100) +1;
 let intentos = 0;
 let adivinado = false;
-
+ 
+//bucle principal
 while(!adivinado ){
     let entrada = prompt("adivina un numero entre el 1 y el 100")
     let numero = parseInt(entrada);
